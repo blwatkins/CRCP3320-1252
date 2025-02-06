@@ -1,0 +1,11 @@
+#!/bin/zsh
+
+echo 'yellow'
+echo 'hi'
+echo 'boat'
+echo 'bat'
+echo 'water'
+echo 'cord'
+echo 'cap'
+echo 'phone'
+echo -e '\a'
