@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>p5.js Sketch</title>
+        <style>
+            body {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="./index.html">Home</a>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.11.3/lib/p5.min.js"></script>
+        <script>
+            // setup
+            function setup() {
+                createCanvas(500, 500);
+            }
+
+            // draw
+            function draw() {
+                background(0);
+                noFill();
+                strokeWeight(3);
+                stroke(0, 0, 200);
+                ellipse(mouseX, mouseY, 50, 50);
+            }
+        </script>
+    </body>
+</html>
