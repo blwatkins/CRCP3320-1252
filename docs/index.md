@@ -1,3 +1,5 @@
 # CRCP 3320 - Spring 2025
 
-Welcome!
+Hello, World.
+
+Welcome! We're glad you're here!
