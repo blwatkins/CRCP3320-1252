@@ -1,3 +1,8 @@
+# architect theme
 remote_theme: pages-themes/architect@v0.2.0
 plugins:
 - jekyll-remote-theme
+
+# pages site settings
+title: "CRCP 3320 - Spring 2025"
+show_downloads: true
