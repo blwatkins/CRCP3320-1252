@@ -5,3 +5,5 @@ Welcome! We're glad you're here!
 [Confetti](./confetti/index.html)
 
 [Confetti Sketch](./confetti/sketch.html)
+
+[Confetti Markdown Page](./confetti/confetti-markdown.md)
