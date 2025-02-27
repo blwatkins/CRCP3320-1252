@@ -5,7 +5,14 @@ let pg;
 let generators = [];
 
 function setup() {
-    createCanvas(500, 500);
+    const c = createCanvas(500, 500);
+    
+    try {
+        c.parent('main-content');
+    } catch (error) {
+        console.warn(error);
+    }
+    
     let x = 250;
     let y = 100;
     let pointTotal = 20;
