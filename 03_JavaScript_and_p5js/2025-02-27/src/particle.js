@@ -40,16 +40,36 @@ class Particle {
         this.#size = random(1, maxSize);
     }
 
+    get color() {
+        return this.#color;
+    }
+
+    get size() {
+        return this.#size;
+    }
+
+    get radius() {
+        return this.#size / 2.0;
+    }
+
+    get x() {
+        return this.#position.x;
+    }
+
+    get y() {
+        return this.#position.y;
+    }
+
     draw() {
-        this.#render();
+        this.render();
         this.#move();
         this.#applyForces();
         this.#bounce();
     }
 
-    #render() {
-        fill(this.#color);
-        ellipse(this.#position.x, this.#position.y, this.#size, this.#size);
+    render() {
+        fill(this.color);
+        ellipse(this.x, this.y, this.size, this.size);
     }
 
     #move() {
