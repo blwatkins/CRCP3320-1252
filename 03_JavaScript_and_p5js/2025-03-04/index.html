@@ -16,7 +16,9 @@
                 const name = urlParams.get('name');
                 const color = urlParams.get('color');
                 document.getElementById('name').textContent = name;
-                document.getElementById('color').textContent = color;
+                const colorElement = document.getElementById('color');
+                colorElement.textContent = color;
+                colorElement.setAttribute('style', `background-color: ${color}`);
             }
         </script>
         <h3><a href="./form.html">Form Page</a></h3>
