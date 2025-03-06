@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>URL Parameters</title>
+    </head>
+    <body>
+        <h1>URL Parameters</h1>
+        <!-- URL: https://google.com/ -->
+        <!-- URL?key1=valu1&key2=value2&key3=value3 -->
+        <p id="name">Name</p>
+        <p id="color">Favorite Color</p>
+        <button onclick="loadParameters()">Load Parameters</button>
+        <script type="text/javascript">
+            function loadParameters() {
+                const urlParams = new URLSearchParams(document.location.search);
+                const name = urlParams.get('name');
+                const color = urlParams.get('color');
+                document.getElementById('name').textContent = name;
+                document.getElementById('color').textContent = color;
+            }
+        </script>
+        <h3><a href="./form.html">Form Page</a></h3>
+    </body>
+</html>
