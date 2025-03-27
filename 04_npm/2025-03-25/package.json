@@ -1,0 +1,25 @@
+{
+  "name": "crcp3320-1252-npm-example",
+  "version": "1.0.0",
+  "description": "Notes and examples for CRCP 3320 - Emergent Web Development; Spring 2025 term.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-blwatkins:blwatkins/CRCP3320-1252.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "p5": "^1.11.3"
+  },
+  "devDependencies": {
+    "fxhash": "^0.0.10"
+  }
+}
